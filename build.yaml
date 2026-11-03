@@ -1,0 +1,11 @@
+---
+include:
+  - board: nice_nano//zmk
+    shield: scylla_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: scylla_left_studio
+  - board: nice_nano//zmk
+    shield: scylla_right
+  - board: nice_nano//zmk
+    shield: settings_reset
