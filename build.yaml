@@ -7,5 +7,7 @@ include:
     artifact-name: scylla_left_studio
   - board: nice_nano//zmk
     shield: scylla_right
+    artifact-name: scylla_right_studio
   - board: nice_nano//zmk
     shield: settings_reset
+    artifact-name: settings_reset
